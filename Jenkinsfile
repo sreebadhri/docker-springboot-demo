@@ -1,7 +1,7 @@
 node {
    def mvnHome
    stage('Preparation') {
-      git 'https://github.com/jglick/simple-maven-project-with-tests.git'
+      git 'https://github.com/sreebadhri/docker-springboot-demo.git'
       // Get the Maven tool.
       // ** NOTE: This 'Maven_Home' Maven tool is configured already
       // **       in the global configuration.           
